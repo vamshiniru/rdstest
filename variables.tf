@@ -33,10 +33,10 @@ variable "db_name" {
 }
 
 variable "username" {
-  default     = "myuser"
+  default     = "admin"
   description = "User name"
 }
 
 variable "password" {
-  description = "password, provide through your ENV variables"
+  description = "nopassword"
 }
